@@ -1,0 +1,30 @@
+.cookiesText {
+    display: block;
+    z-index: 99999;
+    min-height: 35px;
+    width: 100%;
+    position: fixed;
+    background: rgb(31, 31, 31);
+    border-image: initial;
+    border-top: 1px solid rgb(198, 198, 198);
+    text-align: center;
+    right: 0px;
+    color: rgb(119, 119, 119);
+    bottom: 0px;
+    left: 0px;
+    box-shadow: black 0px 8px 6px -6px;
+    border-right-color: rgb(198, 198, 198);
+    border-bottom-color: rgb(198, 198, 198);
+    border-left-color: rgb(198, 198, 198);
+}
+.politicCookies {
+    color: rgb(116, 204, 210);
+}
+
+.buttonCookies span {
+    color: rgb(249, 182, 23);
+}
+.buttonCookies span:hover {
+    color:red;
+    cursor: pointer;
+}

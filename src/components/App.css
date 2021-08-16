@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../image/background.jpg) repeat;
+    background-size: 100% 100%;
+    color: white;
+    background-size: cover;
+}
+
+.App {
+    width: 100vw;
+    position: relative;
+    text-align: center;
+}
+
+footer {
+    margin: .5vw auto 0 auto;
+    font-family: 'Fredericka the Great', 'cursive';
+    border-top: #5c5b5b solid 1px;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 18px;
+}

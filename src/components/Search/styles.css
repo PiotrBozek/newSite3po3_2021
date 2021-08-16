@@ -1,0 +1,36 @@
+.button {
+    font-size: 24px;
+    width: 150px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Fredericka the Great', 'cursive';
+  }
+.buttonVegeActive {
+    width: 150px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Fredericka the Great', 'cursive';
+    font-size: 24px;
+    background-color: green;
+    color: white;
+}
+.buttonRedActive {
+    width: 150px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    font-family: 'Fredericka the Great', 'cursive';
+    background-color: rgb(220, 53, 69);
+    color: white
+}
+
+.buttonYellowActive {
+    width: 150px;
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Fredericka the Great', 'cursive';
+    background-color: rgb(249, 182, 23);
+    color: black;
+    margin: 0 10 0 10;
+}

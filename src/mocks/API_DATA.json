@@ -1,0 +1,379 @@
+{
+     "Pizzas": [
+             {
+        "key": 0,
+        "namePl": "3 kolory",
+        "nameEn": "3 colors",
+        "photo": "3_kolory",
+        "ingredientPl": ["sos", "ser", "pieczarki", "brokuły", "szynka", "salami", "cebula", "papryka"],
+        "ingredientEn": ["tomato sauce", "cheese", "mushrooms", "broccoli", "ham", "salami", "onion", "pepper"],
+        "price": [22 , 27, 38],
+        "vege": false
+      },
+            {
+        "key": 1,
+        "namePl": "4 sery",
+        "nameEn": "4 cheeses",
+        "photo": "4_sery",
+        "ingredientPl": ["sos", "ser", "feta", "mozarella", "parmezan", "ser pleśniowy z zielonym pieprzem"],
+        "ingredientEn": ["tomato sauce", "feta cheese", "mozarella cheese", "parmesan cheese", "pepper soft cheese"],
+        "price": [21 , 27, 38],
+        "vege": true
+      },
+      {
+        "key": 2,
+        "namePl": "diabolo (ostra)",
+        "nameEn": "diabolo (spicy)",
+        "photo": "diabolo",
+        "ingredientPl": ["sos", "ser", "cebula", "papryka", "salami", "peperoni", "czosnek"],
+        "ingredientEn": ["tomato sauce", "cheese", "onion", "pepper", "salami", "peperoni pepper", "garlic"],
+        "price": [20 , 27, 38],
+        "vege": false
+      },      
+      {
+        "key": 3,
+        "namePl": "florencja",
+        "nameEn": "Florence",
+        "photo": "florencja",
+        "ingredientPl": ["sos", "ser", "salami", "papryka", "cebula", "oliwki"],
+        "ingredientEn": ["tomato sauce", "cheese", "onion", "olives", "peppers", "salami"],
+        "price": [20 , 24, 33],
+        "vege": false
+      },
+      {
+        "key": 4,
+        "namePl": "fiorentina",
+        "nameEn": "fiorentina",
+        "photo": "fiorentina",
+        "ingredientPl": ["sos", "ser", "pieczarki", "szpinak", "jajko", "czosnek"],
+        "ingredientEn": ["tomato sauce", "cheese", "mushrooms", "spinach", "egg", "garlic" ],
+        "price": [20 , 25, 33],
+        "vege": true
+      },
+      {
+        "key": 5,
+        "namePl": "frutti di mare",
+        "nameEn": "frutti di mare",
+        "photo": "frutti_di_mare",
+        "ingredientPl": ["sos", "ser", "krewetki", "małże", "czosnek"],
+        "ingredientEn": ["tomato sauce", "cheese", "prawns", "clams", "garlic"],
+        "price": [22 , 29, 40],
+        "vege": false
+      },
+      {   
+        "key": 6,
+        "namePl": "gyros",
+        "nameEn": "gyros",
+        "photo": "gyros",
+        "ingredientPl": ["sos", "mozarella", "pomidor", "gyros drobiowy", "sałata lodowa", "czerwona cebula", "zielony ogórek" ],
+        "ingredientEn": ["tomato sauce", "mozzarella cheese", "tomato", "chicken bits", "cucumber", "iceberg lettuce", "red onion"],
+        "price": [24 , 28, 40],
+        "vege": false
+      },
+      {
+        "key": 7,
+        "namePl": "hawajska",
+        "nameEn": "Hawaiian",
+        "photo": "hawajska",
+        "ingredientPl": ["sos", "ser", "szynka", "ananas"],
+        "ingredientEn": ["tomato sauce", "cheese", "ham", "pineapple"],
+        "price": [16 , 20, 27],
+        "vege": false
+      },
+       {
+        "key": 8,
+        "namePl": "idealna",
+        "nameEn": "ideal",
+        "photo": "idealna",
+        "ingredientPl": ["dwie dowolne w jednej"],
+        "ingredientEn": ["two pizzes, one cake"],
+        "price": [21 , 27, 38],
+        "vege": false
+      },
+            {
+        "key": 9,
+        "namePl": "lacio",
+        "nameEn": "lacio",
+        "photo": "lacio",
+        "ingredientPl": ["sos", "ser", "kurczak", "kukurydza", "papryka"],
+        "ingredientEn": ["tomato sauce", "cheese", "corn", "chicken", "pepper"],
+        "price": [20 , 27, 38],
+        "vege": false
+      },      
+      {
+        "key": 10,
+        "namePl": "margherita",
+        "nameEn": "margherita",
+        "photo": "margerita",
+        "ingredientPl": ["sos", "ser"],
+        "ingredientEn": ["tomato sauce", "cheese"],
+        "price": [14 , 18, 25],
+        "vege": true
+      },
+      {
+        "key": 11,
+        "namePl": "milano",
+        "nameEn": "milano",
+        "photo": "milano",
+        "ingredientPl": ["sos", "ser", "kabanos", "salami", "pomidor", "czosnek"],
+        "ingredientEn": ["tomato sauce", "salami", "dry smoked pork sausage", "cheese", "garlic", "tomato"],
+        "price": [19 , 27, 38],
+        "vege": false
+      },
+      {
+        "key": 12,
+        "namePl": "mix",
+        "nameEn": "mix",
+        "photo": "swoja",
+        "ingredientPl": ["sos", "ser", "4 dodatki na życzenie"],
+        "ingredientEn": ["tomato sauce", "cheese", "+", "four ingredients of your choice"],
+        "price": [20 , 27, 38],
+        "vege": false
+      },
+      {
+        "key": 13,
+        "namePl": "napoli",
+        "nameEn": "napoli",
+        "photo": "napoli",
+        "ingredientPl": ["sos", "ser", "szynka", "pieczarki", "salami"],
+        "ingredientEn": ["tomato sauce", "cheese", "mushrooms", "ham", "salami", "oregano"],
+        "price": [20 , 23, 30],
+        "vege": false
+      },
+      {
+        "key": 14,
+        "namePl": "nowa",
+        "nameEn": "new",
+        "photo": "nowa",
+        "ingredientPl": ["sos", "ser", "szynka" ,"kapary", "karczochy"],
+        "ingredientEn": ["tomato sauce", "cheese", "ham", "artichokes", "capers"],
+        "price": [20 , 23, 30],
+        "vege": false
+      },
+      {
+        "key": 15,
+        "namePl": "roma",
+        "nameEn": "roma",
+        "photo": "roma",
+        "ingredientPl": ["sos", "ser", "szynka", "pomidor", "papryka", "cebula"],
+        "ingredientEn": ["tomato sauce", "cheese", "ham", "tomato", "pepper", "onion"],
+        "price": [20 , 24, 33],
+        "vege": false
+      },
+      {
+        "key": 16,
+        "namePl": "rukoletta",
+        "nameEn": "rukoletta",
+        "photo": "rukoletta",
+        "ingredientPl": ["ser biały wędzony", "czarnuszka" ,"rukola"],
+        "ingredientEn": ["smoked cheese", "nigella", "rocket"],
+        "price": [18 , 25, 36],
+        "vege": true
+      },
+      {
+        "key": 17,
+        "namePl": "salami",
+        "nameEn": "salami",
+        "photo": "salami",
+        "ingredientPl": ["sos", "ser", "salami" ],
+        "ingredientEn": ["tomato sauce", "cheese", "salami"],
+        "price": [15 , 19, 25],
+        "vege": false
+      },
+      {
+        "key": 18,
+        "namePl": "salermo",
+        "nameEn": "salermo",
+        "photo": "salermo",
+        "ingredientPl": ["sos", "ser", "szpinak", "parmezan" ],
+        "ingredientEn": ["tomato sauce", "cheese", "parmesan cheese", "cheese, spinach"],
+        "price": [16 , 20, 27],
+        "vege": true
+      },
+      {
+        "key": 19,
+        "namePl": "sanmarino",
+        "nameEn": "sanmarino",
+        "photo": "sanmarino",
+        "ingredientPl": ["sos", "ser", "cebula", "tuńczyk", "oliwki" ],
+        "ingredientEn": ["tomato sauce", "cheese", "onion", "tuna", "olives"],
+        "price": [19 , 24, 33],
+        "vege": false
+      },
+      {
+        "key": 20,
+        "namePl": "sienna",
+        "nameEn": "sienna",
+        "photo": "sienna",
+        "ingredientPl": ["sos", "ser", "pieczarki" ,"salami", "kukurydza" ],
+        "ingredientEn": ["tomato sauce", "cheese", "mushrooms", "salami", "corn"],
+        "price": [19 , 24, 33],
+        "vege": false
+      },
+      {
+        "key": 21,
+        "namePl": "szefa",
+        "nameEn": "boss",
+        "photo": "szefa",
+        "ingredientPl": ["sos", "ser", "szynka", "salami", "cebula", "papryka", "czosnek" ],
+        "ingredientEn": ["tomato sauce", "cheese", "ham", "salami", "onion", "pepper", "garlic"],
+        "price": [21 , 27, 38],
+        "vege": false
+      },
+      {
+        "key": 22,
+        "namePl": "tiwoli",
+        "nameEn": "tiwoli",
+        "photo": "tiwoli",
+        "ingredientPl": ["sos", "ser", "szynka", "pieczarki" ],
+        "ingredientEn": ["tomato sauce", "cheese", "ham", "mushrooms"],
+        "price": [16 , 20, 27],
+        "vege": false
+      },
+      {
+        "key": 23,
+        "namePl": "turyn",
+        "nameEn": "torino",
+        "photo": "turyn",
+        "ingredientPl": ["sos", "ser", "szynka", "papryka" ],
+        "ingredientEn": ["tomato sauce", "cheese", "ham", "pepper"],
+        "price": [16 , 20, 27],
+        "vege": false
+      },
+      {
+        "key": 24,
+        "namePl": "wegetariana",
+        "nameEn": "vegetarian",
+        "photo": "wegetariana",
+        "ingredientPl": ["sos", "ser", "cebula", "oliwki", "brokuły", "papryka", "pomidor", "kukurydza" ],
+        "ingredientEn": ["tomato sauce", "cheese", "onion", "olives", "broccoli", "pepers", "tomato", "corn"],
+        "price": [21 , 27, 38],
+        "vege": true
+      },
+      {
+        "key": 25,
+        "namePl": "wenecja",
+        "nameEn": "venezia",
+        "photo": "wenecja",
+        "ingredientPl": ["sos", "ser", "szynka", "brokuły", "pomidor" ],
+        "ingredientEn": ["tomato sauce", "cheese", "ham", "broccoli", "tomato"],
+        "price": [19 , 24, 33],
+        "vege": false
+      },
+      {
+        "key": 26,
+        "namePl": "werona",
+        "nameEn": "verona",
+        "photo": "werona",
+        "ingredientPl": ["sos", "ser", "boczek", "jajko", "parmezan", "zielony pieprz" ],
+        "ingredientEn": ["tomato sauce", "cheese", "bacon", "egg", "green pepper", "parmesan cheese"],
+        "price": [20 , 27, 38],
+        "vege": false
+      },
+      {
+        "key": 27,
+        "namePl": "wezuwiusz",
+        "nameEn": "wezuwiusz",
+        "photo": "wezuwiusz",
+        "ingredientPl": ["sos", "ser", "cebula", "salami", "peperoni", "tabasco" ],
+        "ingredientEn": ["tomato sauce", "cheese", "onion", "salami", "peperoni pepper", "tabasco"],
+        "price": [18 , 25, 36],
+        "vege": false
+      },
+      {
+        "key": 28,
+        "namePl": "z jajem",
+        "nameEn": "with the egg",
+        "photo": "z_jajem",
+        "ingredientPl": ["sos", "ser", "gotowane jajko", "szynka", "boczek", "kukurydza", "brokuł", "cebula" ],
+        "ingredientEn": ["tomato sauce", "cheese", "egg", "ham", "bacon", "corn", "broccoli", "onion"],
+        "price": [21 , 27, 38],
+        "vege": false
+      } 
+    ],
+    "Salad": [
+      {
+        "key": 0,
+        "namePl": "caprese",
+        "nameEn": "caprese",
+        "photo": "caprese",
+        "ingredientPl": ["pokrojone plastry sera mozarella przekładane plastrami pomidora", "zioła", "oliwa z oliwek"],
+        "ingredientEn": ["mozzarella cheese bits with tomato slices", "herbs", "olive oil"],
+        "price": [18],
+        "vege": true
+      },
+      { 
+        "key": 1,
+        "namePl": "mix",
+        "nameEn": "mix",
+        "photo": "mix",
+        "ingredientPl": ["sałata lodowa", "kukurydza", "5 wybranych składników"],
+        "ingredientEn": ["iceberg lettuce", "corn", "five ingredients of your choice"],
+        "price": [19],
+        "vege": true
+      },
+      {
+        "key": 2,
+        "namePl": "śródziemnomorska",
+        "nameEn": "Mediterranean",
+        "photo": "srodziemnomorska",
+        "ingredientPl": ["sos", "sałata lodowa", "ser feta", "ogórek", "pomidor", "oliwki", "czerwona cebula"],
+        "ingredientEn": ["dressing", "iceberg lettuce", "feta cheese", "cucumber", "tomato", "olives", "red onion"],
+        "price": [18],
+        "vege": true
+      },
+      {
+        "key": 3,
+        "namePl": "wielowarzywna",
+        "nameEn": "mixed veggies",
+        "photo": "wielowarzywna",
+        "ingredientPl": ["sos", "sałata lodowa", "cebula", "pomidor", "papryka", "ogórek", "ser mozarella"],
+        "ingredientEn": ["iceberg lettuce", "tomato", "onion", "pepper", "cucumber", "mozarella cheese", "dressing"],
+        "price": [18],
+        "vege": true
+      },
+      { 
+        "key": 4,
+        "namePl": "z kurczakiem",
+        "nameEn": "with chicken",
+        "photo": "z_kurczakiem",
+        "ingredientPl": ["sos", "sałata lodowa", "czerwona cebula", "kukurydza", "papryka", "korniszon"],
+        "ingredientEn": ["dressing", "iceberg lettuce", "chicken", "red onion", "corn", "pepper", "pickle"],
+        "price": [18],
+        "vege": false
+      },
+      {
+        "key": 5,
+        "namePl": "z tuńczykiem",
+        "nameEn": "with tuna",
+        "photo": "z_tunczykiem",
+        "ingredientPl": ["sos", "sałata lodowa", "tuńczyk", "pomidor", "oliwki", "czerwona cebula", "papryka"],
+        "ingredientEn": ["dressing", "iceberg lettuce", "tuna", "olives", "red onion", "pepper", "tomato"],
+        "price": [18],
+        "vege": false
+      },
+      {
+        "key": 6,
+        "namePl": "koszyczek chlebków",
+        "nameEn": "foccacia slices",
+        "photo": "koszyczek",
+        "ingredientPl": ["chlebek z ciasta drożdzowego, okraszony serem mozarellą"],
+        "ingredientEn": ["yeast bread with mozzarella cheese"],
+        "price": [18],
+        "vege": true
+    }
+  ],
+"Ingredients": [    
+  { "key": 0,
+    "polish": ["sos", "ser", "szynka", "salami", "papryka", "ananas", "pieczarki", 
+      "kukurydza", "tuńczyk", "oliwki", "cebula", "jalapeno", "szpinak","parmezan", 
+      "jajko", "czosnek", "oregano", "pomidor", "kapary", "karczochy", "mozarella", 
+      "gyros drobiowy", "ogórek","sałata lodowa"]},
+    {"key": 1,
+      "english": ["tomato sauce", "cheese", "ham", "salami", "pepper", "pineapple", "mushrooms",
+      "corn", "tuna", "olives", "onion", "jalapeno", "spinach", "parmesan",
+      "egg", "garlic", "oregano", "tomato", "capers", "artichokes", "mozzarella",
+      "chicken gyros", "cucumber", "iceberg lettuce"]}
+    ]
+
+  }

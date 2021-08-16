@@ -1,0 +1,132 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 3px 3px 4px 0px rgba(182, 180, 180, 0.75);
+    width: 25%;
+    margin: 1% 1%;
+    transition-duration: 1s;
+    color: rgb(249, 182, 23);
+}
+
+.card {
+        background: url(../../../image/bgcart.jpg) no-repeat;
+        width: 100vh;
+}
+
+.cards:hover {
+    transform: scale(1.02, 1.02);
+    -webkit-transform: scale(1.02, 1.02);
+    -moz-transform: scale(1.02, 1.02);
+    z-index: 0;
+    cursor: pointer;
+}
+
+.cards:active {
+    transform: scale(1.3);
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+    object-position: 50% 50%;
+    font-size: 8px;
+}
+
+.name-pizza {
+    font-size: 18px;
+    font-weight: 800;
+    padding-top: 1vh;
+    padding-left: 1vw;
+    font-family: 'Fredericka the Great', 'cursive';
+}
+
+.ingredient {
+    padding-top: .5vh;
+    padding-bottom: .5vh;
+    padding-left: 1vw;
+    text-align: left;
+    font-family: 'Amatic SC', "cursive";
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.price {
+    width: 30%;
+    display: block;
+}
+
+.price p {
+    text-align: center;
+    text-align: right;
+    padding-right: 1.2vw;
+    margin: 0;
+}
+
+.price p span {
+    font-size: 10px;
+}
+
+.data {
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 1191px) {
+    .name-pizza {
+        font-size: 16px;
+    }
+
+    .ingredient {
+        font-size: 12px;
+    }
+
+    .price {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 990px) {
+    .name-pizza {
+        font-size: 14px;
+    }
+
+    .ingredient {
+        font-size: 10px;
+    }
+
+    .price {
+        font-size: 10px;
+    }
+
+    .cards {
+        width: 33%;
+    }
+}
+
+@media (max-width: 700px) {
+    .cards {
+        width: 40%;
+    }
+
+    .name-pizza {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 500px) {
+    .name-pizza {
+        font-size: 10px;
+    }
+}
