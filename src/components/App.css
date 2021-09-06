@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -11,9 +11,15 @@ body {
 }
 
 .App {
+    display: flex;
+    flex-direction: column;
     width: 100vw;
+    min-height: 100hv;
     position: relative;
     text-align: center;
+}
+.information {
+    flex-basis: 10vh;
 }
 
 footer {
@@ -23,4 +29,9 @@ footer {
     text-align: center;
     padding-top: 3px;
     font-size: 18px;
+}
+
+.products {
+    flex-grow: 1;
+    border: chartreuse 1px solid;
 }

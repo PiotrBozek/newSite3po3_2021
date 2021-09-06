@@ -1,7 +1,5 @@
 import React from 'react';
 import './styles.css';
-// import bgProduct from '../../../image/bgcart.jpg';
-
 
 const Product = (props) => {
 
@@ -15,7 +13,6 @@ const Product = (props) => {
 
     return (
         <div className="cards" onClick={() => props.productView(props.id)}>
-                
             <div className="card">
                 <div>
                     <img className="image" src={picture} alt={`Pizza ${name}`} />

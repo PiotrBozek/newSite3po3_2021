@@ -9,58 +9,58 @@ const Search = (props) => {
         <>
         <div className="search">
             <ButtonGroup aria-label="Toolbar with button groups">
-                <Button 
-                    className={props.choice === 'pizza' ? "buttonRedActive" : "button"}
+                <button 
+                    className={props.choice === 'pizza' ? "buttonRedActive" : "button_choice"}
                     variant="outline-danger"
                     onClick={props.onFormSubmitPizza}
                 >
                         PIZZA
-                </Button>
-                <Button 
-                    className={props.choice === 'salad' ? "buttonRedActive" : "button"}
+                </button>
+                <button 
+                        className={props.choice === 'salad' ? "buttonRedActive" : "button_choice"}
                     variant="outline-danger"
                     onClick={props.onFormSubmitSalad}
                 >
                         {props.flag === 'pl' ? "SAŁATKA" : "SALAD"}
-                </Button>
+                </button>
             </ButtonGroup>{' '}
             <ButtonGroup >
-                <Button 
-                    className ={props.vegetarian === true ? "buttonVegeActive" : "button"}
+                <button 
+                    className ={props.vegetarian === true ? "buttonVegeActive" : "button_vege"}
                     variant="outline-success"
                         onClick={props.onChangeStateVegetarian}
                 >
                         {props.flag === 'pl' ? "bez mięsa" : "no meat"}
-                </Button>
+                </button>
             </ButtonGroup>{' '}
-                <Button 
+                <button
                     className={props.ham === true ? "buttonYellowActive" : "button"}
                     variant="outline-warning"
                     onClick={props.onChangeStateHam}
                     >
                     {props.flag === 'pl' ? "szynka" : "ham"}
-                </Button>
-                <Button 
+                </button>
+                <button 
                     className={props.peppers === true ? "buttonYellowActive" : "button"}
                     variant="outline-warning"
                     onClick={props.onChangeStatePeppers}
                     >
                     {props.flag === 'pl' ? "papryka" : "peppers"}
-                </Button>
-                <Button 
+                </button>
+                <button 
                     className={props.mushrooms === true ? "buttonYellowActive" : "button"}
                     variant="outline-warning"
                     onClick={props.onChangeStateMushrooms}
                     >
                     {props.flag === 'pl' ? "pieczarki" : "champignon"}
-                </Button>
-                <Button 
+                </button>
+                <button 
                     className={props.salami === true ? "buttonYellowActive" : "button"}
                     variant="outline-warning"
                     onClick={props.onChangeStateSalami}
                 >
                     salami
-                </Button>
+                </button>
                 
         </div>
         </>

@@ -58,13 +58,8 @@
     width: 100%;
 }
 
-.activeFlag {
-    /* box-shadow: cornflowerblue; */
-    border: red 3px solid;
-}
-
 @media ( max-width: 1650px) {
-    .phoneFlags {
+    .headerPhone {
         font-size: 24px;
     }
 }
@@ -84,7 +79,7 @@
 }}
 
 @media (max-width: 720px) {
-    .phoneFlags {
+    .headerPhone {
         font-size: 18px;
     }
 }
@@ -99,4 +94,8 @@
     .pubLogo {
         width: 90%;
     }
+    .headerPhone {
+        font-size: 16px;
+    }
+
 }

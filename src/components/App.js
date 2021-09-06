@@ -111,17 +111,16 @@ class App extends React.Component {
 
 render() {  
   const {choice, choiceHam, choiceMushrooms, choicePeppers, choiceSalami, coockies, flag, pizzas, salad, vegetarian} = this.state
-  console.log(coockies)
   return (
     <Router>
     <div className="App">
           <Header 
-          FlagClickPl={this.handleFlagClickPl} 
-          FlagClickEn={this.handleFlagClickEn}  
-          flag = {flag}
+              FlagClickPl={this.handleFlagClickPl} 
+              FlagClickEn={this.handleFlagClickEn}  
+              flag = {flag}
           />
           <Information className="information" />
-          <Search                             
+          <Search    className="search"                         
               onFormSubmitPizza = {this.onValueButtonPizza} 
               onFormSubmitSalad = {this.onValueButtonSalad}
               onChangeStateVegetarian = {this.changeStateVege}
@@ -139,6 +138,7 @@ render() {
               flag={flag} 
           />
           <Products 
+              className="products"
               products={choice === 'pizza' ? pizzas :  salad }
               vegetarian = {vegetarian}
               ham = {choiceHam}
