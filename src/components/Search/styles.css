@@ -11,6 +11,11 @@
         border-radius: 5px;
   }
 
+.button:hover {
+          background-color: rgb(249, 182, 23);
+          color: black;
+  }
+
 .button_choice {
         font-size: 1.5rem;
         width: 150px;
@@ -21,6 +26,12 @@
         border: rgb(220, 53, 69) 1px solid;
         border-radius: 5px;
 }
+
+.button_choice:hover {
+        background-color: rgb(220, 53, 69);
+        color: white
+}
+
 .buttonVegeActive {
         font-size: 1.5rem;
         width: 150px;
@@ -31,6 +42,13 @@
         background-color: green;
         color: white;
 }
+
+.button_vege:hover {
+        background-color: green;
+        color: white;
+
+}
+
 .button_vege {
         font-size: 1.5rem;
         width: 150px;
@@ -43,25 +61,25 @@
 
 }
 .buttonRedActive {
-    font-size: 1.5rem;
-    width: 150px;
-    height: 50px;
-    border-radius: 5px;
-    text-align: center;
-    vertical-align: middle;
-    font-family: 'Fredericka the Great', 'cursive';
-    background-color: rgb(220, 53, 69);
-    color: white
+        font-size: 1.5rem;
+        width: 150px;
+        height: 50px;
+        border-radius: 5px;
+        text-align: center;
+        vertical-align: middle;
+        font-family: 'Fredericka the Great', 'cursive';
+        background-color: rgb(220, 53, 69);
+        color: white
 }
 
 .buttonYellowActive {
-    font-size: 1.5rem;
-    width: 150px;
-    height: 50px;
-    text-align: center;
-    vertical-align: middle;
-    font-family: 'Fredericka the Great', 'cursive';
-    background-color: rgb(249, 182, 23);
-    color: black;
-    margin: 0 10 0 10;
+        font-size: 1.5rem;
+        width: 150px;
+        height: 50px;
+        text-align: center;
+        vertical-align: middle;
+        font-family: 'Fredericka the Great', 'cursive';
+        background-color: rgb(249, 182, 23);
+        color: black;
+        margin: 0 10 0 10;
 }
