@@ -4,7 +4,6 @@ import Search from './Search/Search';
 import Products from './Products/Products';
 import Information from './Information/Information';
 import Coockies from './Cookies/Cookies';
-// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import API_DATA from '../mocks/API_DATA.json';
 
