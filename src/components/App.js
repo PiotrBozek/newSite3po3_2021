@@ -4,7 +4,7 @@ import Search from './Search/Search';
 import Products from './Products/Products';
 import Information from './Information/Information';
 import Coockies from './Cookies/Cookies';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import API_DATA from '../mocks/API_DATA.json';
 
@@ -112,7 +112,7 @@ class App extends React.Component {
 render() {  
   const {choice, choiceHam, choiceMushrooms, choicePeppers, choiceSalami, coockies, flag, pizzas, salad, vegetarian} = this.state
   return (
-    <Router>
+  
     <div className="App">
           <Header 
               FlagClickPl={this.handleFlagClickPl} 
@@ -151,11 +151,10 @@ render() {
           {/* <ProductView 
             products={choice === 'pizza' ? pizzas :  salad } 
           /> */}
-          <footer>B o z i k  2 1</footer>
+          <footer>B o z i k  '2 1</footer>
           {coockies === true ? <Coockies coockies={this.changeStateCoockies} />: null}
-          {/* <Coockies /> */}
     </div>
-    </Router>
+
   );}
 
 }
