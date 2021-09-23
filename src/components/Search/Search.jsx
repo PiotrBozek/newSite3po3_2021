@@ -23,7 +23,8 @@ const Search = (props) => {
                 >
                         {props.flag === 'pl' ? "SAŁATKA" : "SALAD"}
                 </button>
-            </ButtonGroup>{' '}
+            </ButtonGroup>
+            {' '}
             <ButtonGroup >
                 <button 
                     className ={props.vegetarian === true ? "buttonVegeActive" : "button_vege"}
@@ -32,7 +33,8 @@ const Search = (props) => {
                 >
                         {props.flag === 'pl' ? "bez mięsa" : "no meat"}
                 </button>
-            </ButtonGroup>{' '}
+            </ButtonGroup>
+            {' '}
                 <button
                     className={props.ham === true ? "buttonYellowActive" : "button"}
                     variant="outline-warning"
