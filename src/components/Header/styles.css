@@ -57,10 +57,10 @@
     /* justify-content: center; */
     align-items: center;
     width: 100%;
-    border: blueviolet 1px solid;
+    /* border: blueviolet 1px solid; */
 }
 .flags img {
-    border: springgreen 1px solid;
+    /* border: springgreen 1px solid; */
 }
 
 @media ( max-width: 1650px) {
