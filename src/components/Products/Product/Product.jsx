@@ -17,7 +17,7 @@ const Product = (props) => {
                 <div>
                     <img className="image" src={picture} alt={`Pizza ${name}`} />
                 </div>
-                <div className="ui content data">
+                <div className="ui content data containerName">
                     <div className="name">
                         <div className="name-pizza">
                             {name.toUpperCase()}

@@ -13,6 +13,7 @@
 .card {
         background: url(../../../image/bgcart.jpg) no-repeat;
         width: 100vh;
+        
 }
 
 .cards:hover {
@@ -42,6 +43,7 @@
     font-weight: 800;
     padding-top: 1vh;
     padding-left: 1vw;
+    width: 100%;
     font-family: 'Fredericka the Great', 'cursive';
 }
 
@@ -49,8 +51,12 @@
     padding-top: .5vh;
     padding-bottom: .5vh;
     padding-left: 1vw;
-    text-align: left;
+    text-align: center;
     font-family: 'Amatic SC', "cursive";
+}
+
+.containerName {
+    width: 100%;
 }
 
 .name {
