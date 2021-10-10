@@ -4,7 +4,6 @@
 }
 
 body {
-    background: url(../image/background.jpg) repeat;
     color: white;
     background-position:fixed;
 }
@@ -16,6 +15,7 @@ body {
     min-height: 100hv;
     position: relative;
     text-align: center;
+    background: url(../image/background.jpg) repeat;
 }
 .information {
     flex-basis: 10vh;
