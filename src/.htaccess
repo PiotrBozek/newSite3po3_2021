@@ -1,0 +1,4 @@
+RewriteEngine włączony
+RewriteCond %{HTTP_HOST} pub-3po3\.pl [NC]
+PrzepiszCond %{SERVER_PORT} 80
+Przepisz Regułę ^(.*)$ https://www.pub-3po3.pl/$1 [R,L]
