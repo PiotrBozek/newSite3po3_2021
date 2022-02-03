@@ -5,7 +5,6 @@ import flagaEn from '../../image/EnFlag.jpg';
 import picture from '../../image/plansza.jpg'
 
 const Header = (props) => {
-    // const picture = `./photos/plansza.jpg`;
 
     return (
         <div className='pubLogo'>
@@ -28,5 +27,4 @@ const Header = (props) => {
 }
 
 export default Header
-// { props.flag === 'en' ? 'activeFlag' : 'flags' }
-// className = { props.flag === 'pl' ? 'activeFlag flags' : 'flags' }
+
