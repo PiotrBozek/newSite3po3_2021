@@ -8,9 +8,6 @@ const Search = (props) => {
 
     return (
         <>
-        <div className='app__Search-board'>
-        <img src={picture} alt ='logo Polskiego Funduszu Rozwoju' />
-        </div>
         <div className="search">
             <ButtonGroup aria-label="Toolbar with button groups">
                 <button 

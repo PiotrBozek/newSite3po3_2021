@@ -12,11 +12,6 @@
         z-index: 1;
 }
 
-.app__Search-board img {
-        width: 50%;
-        padding: 0 auto;
-}
-
 .button_choice {
         font-size: 1.5rem;
         width: 150px;
