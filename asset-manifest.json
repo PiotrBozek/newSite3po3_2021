@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/newSite3po3_2021/static/css/main.6312d577.chunk.css",
-    "main.js": "/newSite3po3_2021/static/js/main.37cec264.chunk.js",
-    "main.js.map": "/newSite3po3_2021/static/js/main.37cec264.chunk.js.map",
-    "runtime-main.js": "/newSite3po3_2021/static/js/runtime-main.182bc130.js",
-    "runtime-main.js.map": "/newSite3po3_2021/static/js/runtime-main.182bc130.js.map",
-    "static/js/2.cb8e793c.chunk.js": "/newSite3po3_2021/static/js/2.cb8e793c.chunk.js",
-    "static/js/2.cb8e793c.chunk.js.map": "/newSite3po3_2021/static/js/2.cb8e793c.chunk.js.map",
-    "index.html": "/newSite3po3_2021/index.html",
-    "static/css/main.6312d577.chunk.css.map": "/newSite3po3_2021/static/css/main.6312d577.chunk.css.map",
-    "static/js/2.cb8e793c.chunk.js.LICENSE.txt": "/newSite3po3_2021/static/js/2.cb8e793c.chunk.js.LICENSE.txt",
-    "static/media/EnFlag.650c795b.jpg": "/newSite3po3_2021/static/media/EnFlag.650c795b.jpg",
-    "static/media/PlFlag.54d6767a.jpg": "/newSite3po3_2021/static/media/PlFlag.54d6767a.jpg",
-    "static/media/App.css": "/newSite3po3_2021/static/media/background.648b2c8b.jpg",
-    "static/media/styles.css": "/newSite3po3_2021/static/media/tlobg2.f1149333.png"
+    "main.css": "./static/css/main.e463d1c0.chunk.css",
+    "main.js": "./static/js/main.8fda2e05.chunk.js",
+    "main.js.map": "./static/js/main.8fda2e05.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.44b5ed95.js",
+    "runtime-main.js.map": "./static/js/runtime-main.44b5ed95.js.map",
+    "static/js/2.a9566be8.chunk.js": "./static/js/2.a9566be8.chunk.js",
+    "static/js/2.a9566be8.chunk.js.map": "./static/js/2.a9566be8.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.e463d1c0.chunk.css.map": "./static/css/main.e463d1c0.chunk.css.map",
+    "static/js/2.a9566be8.chunk.js.LICENSE.txt": "./static/js/2.a9566be8.chunk.js.LICENSE.txt",
+    "static/media/EnFlag.650c795b.jpg": "./static/media/EnFlag.650c795b.jpg",
+    "static/media/PlFlag.54d6767a.jpg": "./static/media/PlFlag.54d6767a.jpg",
+    "static/media/App.css": "./static/media/background.648b2c8b.jpg",
+    "static/media/styles.css": "./static/media/tlobg2.f1149333.png",
+    "static/media/plansza.ba40ec83.jpg": "./static/media/plansza.ba40ec83.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.182bc130.js",
-    "static/js/2.cb8e793c.chunk.js",
-    "static/css/main.6312d577.chunk.css",
-    "static/js/main.37cec264.chunk.js"
+    "static/js/runtime-main.44b5ed95.js",
+    "static/js/2.a9566be8.chunk.js",
+    "static/css/main.e463d1c0.chunk.css",
+    "static/js/main.8fda2e05.chunk.js"
   ]
 }
