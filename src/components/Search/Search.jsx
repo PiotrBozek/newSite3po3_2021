@@ -1,12 +1,16 @@
 import React from 'react';
 import { ButtonGroup } from 'react-bootstrap';
 
+import picture from '../../image/plansza1.jpg'
 import './styles.css';
 
 const Search = (props) => {
 
     return (
         <>
+        <div>
+        <img src={picture} alt ='logo Polskiego Funduszu Rozwoju' />
+        </div>
         <div className="search">
             <ButtonGroup aria-label="Toolbar with button groups">
                 <button 
