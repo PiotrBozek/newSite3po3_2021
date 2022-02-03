@@ -8,7 +8,7 @@ const Search = (props) => {
 
     return (
         <>
-        <div>
+        <div className='app__Search-board'>
         <img src={picture} alt ='logo Polskiego Funduszu Rozwoju' />
         </div>
         <div className="search">
