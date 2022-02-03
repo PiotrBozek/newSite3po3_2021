@@ -1,4 +1,5 @@
 import React from 'react';
+// import {Coockies, Header, Information, Products, Search } from './';
 import Header from './Header/Header';
 import Search from './Search/Search';
 import Products from './Products/Products';
@@ -109,6 +110,7 @@ class App extends React.Component {
   }
 
 render() {  
+  console.log(this.state.flag)
   const {choice, choiceHam, choiceMushrooms, choicePeppers, choiceSalami, coockies, flag, pizzas, salad, vegetarian} = this.state
   return (
   
@@ -136,6 +138,7 @@ render() {
               salami = {choiceSalami}
               flag={flag} 
           />
+
           <Products 
               className="products"
               products={choice === 'pizza' ? pizzas :  salad }

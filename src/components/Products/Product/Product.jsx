@@ -6,8 +6,7 @@ const Product = (props) => {
     const name = props.name.toUpperCase();
     const items = props.ingredient.toString().replace(/,/g, ", ");
     const price = props.price.map((one) => <p key={one}>{one}<span>zł</span></p>);
-    
-    
+        
     const picture = `./photos/${props.photo}.jpg`;
    
 
