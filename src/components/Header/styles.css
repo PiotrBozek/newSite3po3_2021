@@ -17,12 +17,12 @@
     height: 100px;
     color: rgb(116, 204, 210);
     font-family: 'Fredericka the Great', 'cursive';
+    /* border: rgb(20, 207, 220) 1px solid; */
 }
 
 .app__Header-logo span {
     color: rgb(249, 182, 23);
 }
-
 
 .app__Header-contact {
     font-size: 36px;
@@ -31,6 +31,7 @@
     width: 39%;
     height: 100px;
     margin-bottom: 25px;
+    /* border: rgb(220, 190, 20) 1px solid; */
 }
 
 .app__Header-contact p{
@@ -44,18 +45,66 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    /* border: crimson 1px solid; */
 }
 .app-Header-flags img {
     width: 50px;
     height: 30px;
+    cursor: pointer;
 }
 
 .app-Header-pfr {
     width: 25%;
     object-fit: fill;
-    z-index: 300;       
+    z-index: 300;   
+    right: 0;
 }
 
 .app-Header-pfr img {
     width: 200px;
+}
+
+@media screen and (max-width: 1700px) {
+
+    .app-Header-pfr img {
+        width: 168px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .app-Header-pfr {
+        width: 20%;
+    }
+    .app__Header-contact {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .app__Header-logo {
+        width: 20%;
+        text-align: left;
+        font-size: 42px;
+    }
+    .app__Header-contact {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .app__Header {
+        flex-direction: column;
+        height: auto;
+    }
+    .app__Header-logo {
+        width: 100%;
+        text-align: center;
+        height: auto;
+    }
+    .app-Header-flags {
+        height: auto;
+    }
+    .app__Header-contact {
+        height: auto;
+    }
 }

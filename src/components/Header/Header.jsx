@@ -22,23 +22,6 @@ const Header = (props) => {
             <div className='app-Header-pfr'>
             <img src={picture} alt ='logo Polskiego Funduszu Rozwoju' />
             </div>
-            {/* 
-           <div>           
-                <div className="headerPhone">tel. 887-333-030</div>
-                <div className="PizzeriaData">            
-                    <span>Żagań ul. Dworcowa 31</span>
-                </div>
-            </div>
-
-           <div className='phoneFlags'> 
-                <div className='flags'>
-                    <img className='polishFlag'  onClick={props.FlagClickPl} src={flagaPl} alt='flaga polska' />
-                    <img className='englishFlag' onClick={props.FlagClickEn} src={flagaEn} alt='flaga angielska' />
-                 </div>
-
-
-            </div>
- */}
         </div>
     )
 }
