@@ -1,11 +1,11 @@
-.information {
-        height: 10vh;
+.app__Information {
+        height: 5vh;
         color: white;
         display: flex;
         flex-direction: column;
 }
 
-.PizzeriaData {
+/* .PizzeriaData {
         font-size: 28px;
         display: flex;
         justify-content: space-evenly;
@@ -13,11 +13,11 @@
         letter-spacing: 2px;
         color: rgb(249, 182, 23);
         margin-top: 10px;
-}
+} */
 
-.openingHours {
-        margin-top: 10px;
-        font-size: 18px;
-        color: rgb(116, 204, 0210);
-        /* letter-spacing: 2px; */
+.app__Information-openingHours {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 24px;
+        color: #4faec0;
 }

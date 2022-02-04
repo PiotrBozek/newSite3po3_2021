@@ -12,10 +12,11 @@ body {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    min-height: 100hv;
+    min-height: 100%;
     position: relative;
     text-align: center;
-    background: url(../image/background.jpg) repeat;
+    background-color: #0c1a22;
+
 }
 .information {
     flex-basis: 10vh;

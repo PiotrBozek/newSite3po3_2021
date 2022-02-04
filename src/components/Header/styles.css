@@ -1,132 +1,61 @@
-.pubLogo {
+.app__Header {
     position: sticky; 
     position: -webkit-sticky;
     display: flex;
-    justify-content: center;
-    align-items:center;
-    height: 100px;
-    width: 70%;
-    padding: 0;
-    margin: 0 auto;
+    height: 11vh;
+    width: 100%;
     box-sizing: border-box;
     top: 0;
     z-index: 200;
-    background: url(../../image/tlobg2.png) repeat;
-    object-fit: fill;
+    background-color: #0c1a22;
 }
 
-.app__Header-img img{
-    width: 220px;
-    height: auto;
-    margin: 5px;
-    padding-top: 90px;
-    z-index: 300;
-}
-
-.logoDivs {
-    display: flex;
-    justify-content: flex-end;
-    width: 30%;
-    /* border: brown 1px solid; */
-}
-
-.namePub {
+.app__Header-logo {
+    text-align: right;
     font-size: 48px;
-    font-family: 'Fredericka the Great', 'cursive';
+    width: 30%;
+    height: 100px;
     color: rgb(116, 204, 210);
-    text-align: right; 
-    /* border: brown 1px solid; */
-}
-
-.name3po3 {
-    font-size: 72px;
     font-family: 'Fredericka the Great', 'cursive';
+}
+
+.app__Header-logo span {
     color: rgb(249, 182, 23);
-    margin-left: 10px;
-    /* border: brown 1px solid; */
 }
 
-.phoneFlags {
-        display: flex;
-        flex-direction:column;
-        justify-content: space-between;
-        align-content:space-around;
-        width: 40%;
-        height: 80%;
-        font-size: 36px;
-        color: rgb(249, 182, 23);
-        font-family: 'Fredericka the Great','cursive';
-        margin-left: 40px;
-        /* border: rgb(52, 165, 42) 1px solid; */
+
+.app__Header-contact {
+    font-size: 36px;
+    font-family: 'Fredericka the Great','cursive';
+    color: rgb(249, 182, 23);
+    width: 39%;
+    height: 100px;
+    margin-bottom: 25px;
 }
 
-.headerPhone {
-        text-align: end;
-        bottom: 0;
+.app__Header-contact p{
+    display: block;
+    margin: 0 auto;
 }
 
-.flags {
+.app-Header-flags {
+    width: 6%;
+    height: 100px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    /* align-items: flex-end; */
-    width: 100%;
-    /* border: blueviolet 1px solid; */
 }
-.flags img {
+.app-Header-flags img {
+    width: 50px;
     height: 30px;
-    object-fit: contain;
-}
-.polishFlag {
-    position: relative;
-    left:  20%;
-    /* border: rgb(8, 231, 56) 1px solid; */
-}
-.englishFlag {
-    position: relative;
-    right: 18%;
-    /* border: brown 1px solid; */
-
 }
 
-@media ( max-width: 1650px) {
-    .headerPhone {
-        font-size: 24px;
-    }
+.app-Header-pfr {
+    width: 25%;
+    object-fit: fill;
+    z-index: 300;       
 }
 
-@media (max-width: 1440px) {
-    .pubLogo {
-        width: 60%;
-        }
-}
-
-@media (max-width: 1300px) {
-    .namePub {
-        font-size: 24px;
-    }
-    .name3po3 {
-        font-size: 48px;
-    }
-}
-
-@media (max-width: 720px) {
-    .headerPhone {
-        font-size: 18px;
-    }
-}
-
-@media (max-width: 660px) {
-    .pubLogo {
-        width: 70%;
-            }
-}
-
-@media (max-width: 550px) {
-    .pubLogo {
-        width: 90%;
-    }
-    .headerPhone {
-        font-size: 16px;
-    }
-
+.app-Header-pfr img {
+    width: 200px;
 }

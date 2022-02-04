@@ -7,21 +7,38 @@ import picture from '../../image/plansza.jpg'
 const Header = (props) => {
 
     return (
-        <div className='pubLogo'>
-            <div className='logoDivs'>           
-                <span className='namePub'>Pub </span>
-                <span className='name3po3'>3po3</span>  
-           </div>
+        <div className='app__Header'>
+            <div className='app__Header-logo'>
+                <p>Pub <span>3po3</span></p>
+            </div>
+            <div className='app__Header-contact'>
+                <p>Żagań ul. Dworcowa 31</p>
+                <p>tel. 887-333-030</p>
+            </div>
+            <div className='app-Header-flags'>
+                <img className='polishFlag'  onClick={props.FlagClickPl} src={flagaPl} alt='polish flag' />
+                <img className='englishFlag' onClick={props.FlagClickEn} src={flagaEn} alt='english flag' />
+            </div>
+            <div className='app-Header-pfr'>
+            <img src={picture} alt ='logo Polskiego Funduszu Rozwoju' />
+            </div>
+            {/* 
+           <div>           
+                <div className="headerPhone">tel. 887-333-030</div>
+                <div className="PizzeriaData">            
+                    <span>Żagań ul. Dworcowa 31</span>
+                </div>
+            </div>
+
            <div className='phoneFlags'> 
                 <div className='flags'>
                     <img className='polishFlag'  onClick={props.FlagClickPl} src={flagaPl} alt='flaga polska' />
                     <img className='englishFlag' onClick={props.FlagClickEn} src={flagaEn} alt='flaga angielska' />
                  </div>
-                <div className="headerPhone">tel. 887-333-030</div>
+
+
             </div>
-               <div className='app__Header-img'>
-                   <img src={picture} alt ='logo Polskiego Funduszu Rozwoju' />
-               </div>
+ */}
         </div>
     )
 }
