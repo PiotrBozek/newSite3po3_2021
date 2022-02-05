@@ -106,5 +106,7 @@
     }
     .app__Header-contact {
         height: auto;
+        font-size: 18px;
+        margin-bottom: 0;
     }
 }
