@@ -16,7 +16,6 @@ body {
     /* position: relative; */
     text-align: center;
     background-color: #0c1a22;
-    border: #f1ee04 1px solid;
     background-size: auto;
 }
 
@@ -26,9 +25,7 @@ body {
 
 .footer {
     display: flex;
-    /* align-self: flex-end; */
     flex-basis:auto;
-    border: #f1ee04 1px solid;
     margin: .5vw auto 0 auto;
     font-family: 'Fredericka the Great', 'cursive';
     border-top: #5c5b5b solid 1px;
