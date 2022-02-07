@@ -1,5 +1,4 @@
 import React from 'react';
-// import {Coockies, Header, Information, Products, Search } from './';
 import Header from './Header/Header';
 import Search from './Search/Search';
 import Products from './Products/Products';
@@ -34,23 +33,23 @@ class App extends React.Component {
     }
   
   componentDidMount(){
-        this.setState({
-            FETCHED_DATA: API_DATA,
-            pizzas: API_DATA.Pizzas,
-            salad: API_DATA.Salad,
-            ingredients: API_DATA.Ingredients
+      this.setState({
+        FETCHED_DATA: API_DATA,
+        pizzas: API_DATA.Pizzas,
+        salad: API_DATA.Salad,
+        ingredients: API_DATA.Ingredients
         })    
     }
 
   handleFlagClickPl = () => {
-        this.setState({
-          flag: 'pl'
+      this.setState({
+        flag: 'pl'
     })
   }
 
   handleFlagClickEn = () => {
-        this.setState({
-          flag: 'en'
+      this.setState({
+        flag: 'en'
     })
   }
 
@@ -60,7 +59,7 @@ class App extends React.Component {
       });
   }
 
-   onValueButtonSalad = () => {
+  onValueButtonSalad = () => {
       this.setState({
         choice: 'salad'
       })
@@ -97,10 +96,10 @@ class App extends React.Component {
   }
 
   productView = (id) => {
-          <ProductView id={id}
-            products={this.state.choice === 'pizza' ? this.state.pizzas :  this.state.salad } 
-          />
-          console.log(id)
+      <ProductView id={id}
+        products={this.state.choice === 'pizza' ? this.state.pizzas :  this.state.salad } 
+      />
+          // console.log(id)
   }
 
   changeStateCoockies = () => {
@@ -113,9 +112,8 @@ render() {
   console.log(this.state.flag)
   const {choice, choiceHam, choiceMushrooms, choicePeppers, choiceSalami, coockies, flag, pizzas, salad, vegetarian} = this.state
   return (
-  
     <div className="App">
-          <Header 
+          <Header className="header"
               FlagClickPl={this.handleFlagClickPl} 
               FlagClickEn={this.handleFlagClickEn}  
               flag = {flag}
@@ -153,7 +151,7 @@ render() {
           {/* <ProductView 
             products={choice === 'pizza' ? pizzas :  salad } 
           /> */}
-          <footer>B o z i k  '2 1</footer>
+          <footer className='footer'>B o z i k  '2 1</footer>
           {coockies === true ? <Coockies coockies={this.changeStateCoockies} />: null}
     </div>
 

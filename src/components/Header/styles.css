@@ -11,13 +11,14 @@
 }
 
 .app__Header-logo {
-    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: end;
     font-size: 48px;
     width: 30%;
     height: 100px;
     color: rgb(116, 204, 210);
     font-family: 'Fredericka the Great', 'cursive';
-    /* border: rgb(20, 207, 220) 1px solid; */
 }
 
 .app__Header-logo span {

@@ -12,17 +12,23 @@ body {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    min-height: 100%;
-    position: relative;
+    min-height: 100vh;
+    /* position: relative; */
     text-align: center;
     background-color: #0c1a22;
-
+    border: #f1ee04 1px solid;
+    background-size: auto;
 }
+
 .information {
     flex-basis: 10vh;
 }
 
-footer {
+.footer {
+    display: flex;
+    /* align-self: flex-end; */
+    flex-basis:auto;
+    border: #f1ee04 1px solid;
     margin: .5vw auto 0 auto;
     font-family: 'Fredericka the Great', 'cursive';
     border-top: #5c5b5b solid 1px;
