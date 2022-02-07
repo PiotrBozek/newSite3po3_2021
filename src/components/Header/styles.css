@@ -109,4 +109,9 @@
         font-size: 18px;
         margin-bottom: 0;
     }
+    .app-Header-pfr {
+        justify-content: center;
+        /* border: 1px solid #10f358; */
+        width: 100%;
+    }
 }
