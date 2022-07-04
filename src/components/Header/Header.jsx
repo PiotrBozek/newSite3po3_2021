@@ -19,9 +19,9 @@ const Header = (props) => {
                 <img className='polishFlag'  onClick={props.FlagClickPl} src={flagaPl} alt='polish flag' />
                 <img className='englishFlag' onClick={props.FlagClickEn} src={flagaEn} alt='english flag' />
             </div>
-            <div className='app-Header-pfr'>
+            {/* <div className='app-Header-pfr'>
             <img src={picture} alt ='logo Polskiego Funduszu Rozwoju' />
-            </div>
+            </div> */}
         </div>
     )
 }
