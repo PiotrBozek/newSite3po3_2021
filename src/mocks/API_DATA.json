@@ -2,8 +2,8 @@
      "Pizzas": [
              {
         "key": 0,
-        "namePl": "3 kolory",
-        "nameEn": "3 colors",
+        "namePl": "firmowa 3po3",
+        "nameEn": "pizza 3po3",
         "photo": "3_kolory",
         "ingredientPl": ["sos", "ser", "pieczarki", "brokuły", "szynka", "salami", "cebula", "papryka"],
         "ingredientEn": ["tomato sauce", "cheese", "mushrooms", "broccoli", "ham", "salami", "onion", "pepper"],
@@ -287,9 +287,19 @@
         "photo": "z_jajem",
         "ingredientPl": ["sos", "ser", "gotowane jajko", "szynka", "boczek", "kukurydza", "brokuł", "cebula" ],
         "ingredientEn": ["tomato sauce", "cheese", "egg", "ham", "bacon", "corn", "broccoli", "onion"],
-        "price": [21 , 27, 38],
+        "price": [23, 29, 40],
         "vege": false
-      } 
+      },
+      {
+        "key": 29,
+        "namePl": "dodatki",
+        "nameEn": "ingredients",
+        "photo": "dodatki",
+        "ingredientPl": ["szynka", "salami", "papryka", "pieczarki"],
+        "ingredientEn": ["ham", "salami", "pepper", "mushrooms"],
+        "price": [5, 6, 7],
+        "vege": true
+    }
     ],
     "Salad": [
       {

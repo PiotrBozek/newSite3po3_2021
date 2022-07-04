@@ -151,6 +151,7 @@ render() {
           {/* <ProductView 
             products={choice === 'pizza' ? pizzas :  salad } 
           /> */}
+          <p>Dodatki 5zl 6zł 7zł</p>
           <footer className='footer'>B o z i k  '2 1</footer>
           {coockies === true ? <Coockies coockies={this.changeStateCoockies} />: null}
     </div>

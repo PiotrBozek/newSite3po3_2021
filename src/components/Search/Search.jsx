@@ -1,7 +1,6 @@
 import React from 'react';
 import { ButtonGroup } from 'react-bootstrap';
 
-import picture from '../../image/plansza1.jpg'
 import './styles.css';
 
 const Search = (props) => {
